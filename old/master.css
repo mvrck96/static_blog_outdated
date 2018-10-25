@@ -1,0 +1,107 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  /*font: 400 15px/1.8 "Anton", sans-serif;*/
+  /*font-family: Anton;
+  font-size: 400;*/
+  color: #777;
+}
+
+.bg {
+  background-image: url("https://pp.userapi.com/c850228/v850228910/2f048/rA8lRHZCClU.jpg");
+
+  height: 100%;
+
+  opacity: 0.99;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption{
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  /*color: #000;*/
+}
+
+.caption span.border2, span.border1{
+  /*background-color: #111;*/
+  color: #f6f6f6;
+  padding: 18px;
+  /*font-size: 30px;*/
+  letter-spacing: 10px;
+  font-family: 'Fjalla One', sans-serif;
+
+
+}
+
+ .bg .social{
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  height: 40px;
+  align: center;
+}
+
+.caption span.border1{
+  font-size: 65px;
+}
+
+/*.caption span.border2 {
+  font-size: 20px;
+
+  border-style: solid;
+  border-color: #f6f6f6;
+}*/
+
+.logo{
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;*/
+    height: 40px;
+    margin-right: 20px;
+}
+
+.social{
+  display: inline-block;
+  text-align: center;
+}
+.links{
+  target:_blank;
+}
+
+/*.border2{
+  background-color: inherit;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}*/
+
+#link {
+  font-size: 30px;
+  color: #f6f6f6;
+  /*border: 5px solid #f6f6f6;*/
+  border-color: #f6f6f6;
+  border-style: solid;
+  padding: 3px 5px 3px 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#link:hover{
+  background-color: #f6f6f6;
+  color: black;
+}
+
+#link:active{
+  text-decoration: none;
+}
+
+#link:visited{
+  text-decoration: none;
+}

@@ -3,16 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Maverick's blog</title>
-    <link rel="stylesheet" href="CSS/masterTravel.css">
+    <link rel="stylesheet" href="CSS/masterContact.css">
     <link rel="shortcut icon" href="Logos/favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One|Mukta+Malar|Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One|Mukta+Malar|Poppins|PT+Sans+Narrow">
   </head>
   <body>
+
     <nav>
       <div class=""><br><br><br>
-        <span class="name"> <a href="main.html" id="toMain">MAVERICK</a></span>
-
-
+        <span class="name"><a href="main.html" id="toMain">MAVERICK</a></span>
         <div class="dropdown">
           <button class="dropbtn">PHOTOGRAPHY</button>
           <div class="dropdown-content">
@@ -30,10 +29,48 @@
         </div>
 
         <span class="aboutme"><a href="about.html">ABOUT</a></span>
-
         <span class="contactme"><a href="contact.html">CONTACT</a></span>
       </div>
     </nav>
+
+
+
+
+    <article class="info">
+      <div class="infotext">
+      <p>If you have got a query or would like a personal quote fil out the <br> form
+        below and I will get to you as soob as possible.<br><br>
+        Or you can contact me directly in maverickmsk1@gmail.com <br><br>
+
+        If you think that you must contact me instanyly you can call my manager,<br>
+        John, his number is +7-916-555-36-84 <br><br>
+
+        Also you can contact me in my socials which are listed down on the page</p>
+
+    </div>
+
+       <form  class="mainform" method="post" autocomplete="off">
+         <fieldset>
+           <legend>Contact information</legend>
+         <br>
+          First name:
+          <input type="text" name="firstname" placeholder="John" required=""> &nbsp &nbsp
+          Last name:
+          <input type="text" name="lastname" placeholder="Doe"><br><br>
+          Your email:<br>
+          <input type="email" name="email" placeholder="example@maverick.com" ><br><br>
+          Subject:<br>
+          <input type="text" name="sub" placeholder="" required=""><br><br>
+          Your Message:<br>
+        <textarea name="message" rows="10" cols="69"></textarea><br><br>
+
+          <input type="submit" name="subbut" value="SUBMIT">
+          </fieldset>
+       </form>
+
+
+    </article>
+
 
 
     <footer class="social">
@@ -46,8 +83,8 @@
             <img src="Logos/youtube-black.svg" alt="YT-logo" class="logo"></a>
           <a href="https://github.com/mvrck96" target="_blank">
             <img src="Logos/github-black.svg" alt="GH-logo"  class="logo"></a>
-
       </div>
     </footer>
+
   </body>
 </html>
